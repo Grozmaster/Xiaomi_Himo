@@ -69,8 +69,11 @@ body {
 }
 
 /* Section Bike */
-.top {
+.bike__container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: antiquewhite;
+}
+.bike__inner {
+    display: flex;
 }
