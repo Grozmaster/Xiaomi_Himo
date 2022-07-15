@@ -4,6 +4,15 @@ html {
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #131313;
 }
