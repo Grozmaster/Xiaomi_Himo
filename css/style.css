@@ -31,7 +31,10 @@ body {
 
 /* Header */
 
-.container {
+.header {
+    margin-bottom: 97px;
+}
+.header__container {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 3px;
@@ -63,4 +66,11 @@ body {
 .menu__link:hover {
     background-color: #131313;
     color: #FFFFFF;
+}
+
+/* Section Bike */
+.top {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
 }
