@@ -38,7 +38,7 @@ body {
 }
 
 .header__inner {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .header__inner img {
@@ -66,7 +66,7 @@ body {
 .menu__link {
     padding: 42px 20px;
     text-transform: uppercase;
-    transition: all .5s;
+    transition: all .3s;
 }
 
 .menu__link:hover {
