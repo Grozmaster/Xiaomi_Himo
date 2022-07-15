@@ -29,15 +29,16 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1220px;
     margin: 0 auto;
     margin-top: 3px;
+    padding: 0 10px;
 
 
 }
 
 .header__inner {
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
 }
 
 .header__inner img {
