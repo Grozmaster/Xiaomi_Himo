@@ -28,6 +28,8 @@ body {
     color: #131313;
 }
 
+
+/* Header */
 .container {
     max-width: 1220px;
     margin: 0 auto;
@@ -38,37 +40,28 @@ body {
 }
 
 .header__inner {
-    /* background-color: blueviolet; */
-}
-
-.header__inner img {
-    display: block;
-}
-
-.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.header__inner img {
+    display: block;
 }
 
 .menu {
     margin-right: 70px;
 }
-
 .menu__list {
     display: flex;
 }
-
-.menu__item + .menu__item {
+.menu__item {
     padding-left: 10px;
 }
-
 .menu__link {
     padding: 42px 20px;
     text-transform: uppercase;
     transition: all .3s;
 }
-
 .menu__link:hover {
     background-color: #131313;
     color: #FFFFFF;
