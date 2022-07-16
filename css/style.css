@@ -85,13 +85,13 @@ img {
 
 /* Section Bike */
 .bike {
-   margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .bike__container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .bike__inner {
@@ -137,7 +137,7 @@ img {
 }
 
 .bike__column-rigth {
-    margin-left: 30px;
+    margin-left: 32px;
 }
 
 .bike__slider {
@@ -147,7 +147,26 @@ img {
 .bike__slider .slick-dots {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 52px;
+}
+
+.slick-dots li+li {
+    padding-top: 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    padding: 0;
+    width:4px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: #131313;
+    cursor: pointer;
+}
+
+.slick-active button {
+    background-color: #FF4040;
 }
 
 
@@ -156,7 +175,7 @@ img {
 }
 
 .bike__list {
-    display: flex;    
+    display: flex;
 }
 
 .bike_list-item {
@@ -192,4 +211,3 @@ img {
     line-height: 15px;
     text-transform: lowercase;
 }
-
