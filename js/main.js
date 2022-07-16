@@ -1,6 +1,7 @@
 $(function () {
     $('.bike__slider').slick({
         arrows: false,
-        dots:true
+        dots:true,
+        fade:true
     });
 });
