@@ -140,6 +140,11 @@ img {
     margin-left: 30px;
 }
 
+.bike__slider {
+    max-width: 630px;
+}
+
+
 .bike__tech {
     margin-top: 20px;
 }
@@ -181,3 +186,4 @@ img {
     line-height: 15px;
     text-transform: lowercase;
 }
+
