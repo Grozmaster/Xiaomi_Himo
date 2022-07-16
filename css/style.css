@@ -85,13 +85,13 @@ img {
 
 /* Section Bike */
 .bike {
-    margin-bottom: 150px;
+   margin-bottom: 150px;
 }
 
 .bike__container {
     max-width: 1200px;
     margin: 0 auto;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
 }
 
 .bike__inner {
@@ -142,6 +142,12 @@ img {
 
 .bike__slider {
     max-width: 630px;
+}
+
+.bike__slider .slick-dots {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 
