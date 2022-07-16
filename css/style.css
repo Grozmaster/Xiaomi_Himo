@@ -26,6 +26,7 @@ a {
 }
 
 body {
+    margin: auto 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
