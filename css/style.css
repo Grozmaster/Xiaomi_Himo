@@ -141,19 +141,15 @@ img {
 }
 
 .bike__tech {
-    margin-top: 25px;
-    margin-left: 65px;
-
+    margin-top: 20px;
 }
 
 .bike__list {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    
+    display: flex;    
 }
 
 .bike_list-item {
+    margin-left: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,13 +163,19 @@ img {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-
-
 }
 
 
 .bike__list-down {
     margin-top: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+}
+
+.bike__list-down-special {
+    margin-top: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
