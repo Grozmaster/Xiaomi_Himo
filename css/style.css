@@ -135,6 +135,9 @@ img {
     color: #FFFFFF;
     background: #131313;
 }
+.bike__link:hover {
+    background: #FF4040;
+}
 
 .bike__column-rigth {
     margin-left: 32px;
