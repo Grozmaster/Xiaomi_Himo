@@ -14,6 +14,12 @@ ul {
     padding-left: 0;
 }
 
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -28,12 +34,16 @@ body {
     color: #131313;
 }
 
+img {
+    display: block;
+}
 
 /* Header */
 
 .header {
     margin-bottom: 97px;
 }
+
 .header__container {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,6 +55,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .header__inner img {
     display: block;
 }
@@ -52,28 +63,119 @@ body {
 .menu {
     margin-right: 70px;
 }
+
 .menu__list {
     display: flex;
 }
+
 .menu__item {
     padding-left: 10px;
 }
+
 .menu__link {
     padding: 42px 20px;
     text-transform: uppercase;
     transition: all .3s;
 }
+
 .menu__link:hover {
     background-color: #131313;
     color: #FFFFFF;
 }
 
 /* Section Bike */
+.bike {
+    margin-bottom: 150px;
+}
+
 .bike__container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
+
 .bike__inner {
     display: flex;
+}
+
+
+
+.bike__title {
+    white-space: nowrap;
+    margin: 72px 0 5px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+}
+
+.bike__subtitle {
+    margin: 0 0 60px;
+    max-width: 420px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+}
+
+.bike_text {
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.bike__link {
+    display: block;
+    max-width: 420px;
+    margin-top: 80px;
+    padding: 28px 81px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #131313;
+}
+
+.bike__column-rigth {
+    margin-left: 30px;
+}
+
+.bike__tech {
+    margin-top: 25px;
+    margin-left: 65px;
+
+}
+
+.bike__list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.bike_list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bike__list-up {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+
+}
+
+
+.bike__list-down {
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
 }
