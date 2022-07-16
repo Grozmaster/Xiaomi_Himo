@@ -26,7 +26,6 @@ a {
 }
 
 body {
-    margin: auto 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -158,7 +157,7 @@ img {
 .slick-dots button {
     font-size: 0;
     padding: 0;
-    width:4px;
+    width: 4px;
     height: 25px;
     border: none;
     border-radius: 7px;
