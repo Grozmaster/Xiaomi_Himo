@@ -1,3 +1,5 @@
-$(function(){
-    $('.bike__slider').slick();
+$(function () {
+    $('.bike__slider').slick({
+        arrows: false
+    });
 });
